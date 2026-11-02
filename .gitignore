@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.streamlit/secrets.toml
+# Nunca subir remesas reales (contienen IBAN y NIF de inquilinos)
+*.xml
+!tests/data/*.xml
+!schemas/*.xsd
